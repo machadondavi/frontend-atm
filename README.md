@@ -1,27 +1,27 @@
-# FrontendChallengeZenvia
+# Frontend Challenge Zenvia - Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+O desafio consiste em desenvolver um programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico, entregando sempre o menor número de notas.
 
-## Development server
+## Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ - Angular 11;
+ - RxJs;
+ - Angular Material;
 
-## Code scaffolding
+## Como executar
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+No terminal, clone o projeto: 
 
-## Build
+`git clone https://github.com/machadondavi/frontend-zenvia-challenge.git`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Entre no diretório do projeto e instale as dependencias:
 
-## Running unit tests
+`npm install `
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute a aplicação:
 
-## Running end-to-end tests
+`ng serve`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Demo
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://github.com/machadondavi/frontend-zenvia-challenge/tree/master/src/assets/gif/caixa-eletronico.gif">
