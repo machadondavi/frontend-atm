@@ -33,7 +33,10 @@ export class HomeComponent implements OnInit {
         timer: 1500
       });
 
-      this.openDialogSaque(this.notasSaque);
+      setTimeout(() => {
+        this.openDialogSaque(this.notasSaque);
+      }, 1600);
+      
     }, error => {
       Swal.fire({
         icon: 'warning',
