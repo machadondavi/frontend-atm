@@ -1,6 +1,6 @@
 # Frontend Challenge Zenvia - Projeto
 
-O desafio consiste em desenvolver um programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico, entregando sempre o menor número de notas.
+O desafio consiste em criar um programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico, entregando sempre o menor número de notas. Foi desenvolvido então uma interface gráfica em Angular 11, consumindo uma [RestAPI](https://github.com/machadondavi/backend-zenvia-challenge) em SpringBoot para executar a regra de negócio.
 
 ## Tecnologias
 
@@ -24,4 +24,4 @@ Execute a aplicação:
 
 ## Demo
 
-<img src="https://github.com/machadondavi/frontend-zenvia-challenge/tree/master/src/assets/gif/caixa-eletronico.gif">
+<img src="https://github.com/machadondavi/frontend-zenvia-challenge/blob/branch-dev/src/assets/gif/caixa-eletronico.gif">
