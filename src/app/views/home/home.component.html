@@ -1,0 +1,39 @@
+<div class="content-body">
+    <mat-card style="width: 700px !important; text-align: center; background-color: #ebedeb; ">
+        <mat-card-content>
+            <form #formSaque="ngForm">
+                <mat-form-field appearance="fill" floatLabel="always"  style="width: 360px !important;">
+                    <input name="valorSaque" [(ngModel)]="valorSaque" matInput type="text" class="example-right-align" placeholder="0">
+                    <span matPrefix>$&nbsp;</span>
+                    <span matSuffix>.00</span>
+                </mat-form-field>
+                <div class="btn-valores">
+                    <div class="row">
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(1)">1</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(2)">2</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(3)">3</button>
+                        <button mat-flat-button style="background-color: #1dcc4b; color: white" (click)="realizarSaque()">Saque</button>
+                    </div>
+                    <div class="row">
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(4)">4</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(5)">5</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(6)">6</button>
+                        <button mat-flat-button color="warn" (click)="limparValorSaque()">Cancela</button>
+                    </div>
+                    <div class="row">
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(7)">7</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(8)">8</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(9)">9</button>
+                        <button mat-flat-button style="background-color: yellow;" (click)="limparValorSaque()">Corrige</button>
+                    </div>
+                    <div class="row">
+                        <button mat-raised-button color="basic">X</button>
+                        <button mat-raised-button color="basic" (click)="adicionarValorPorBtn(0)">0</button>
+                        <button mat-raised-button color="basic">-></button>
+                        <button mat-flat-button style="background-color: goldenrod;" (click)="popUpCedulasDisponiveis()">Notas</button>
+                    </div>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

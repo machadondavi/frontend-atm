@@ -1,0 +1,35 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+    width: 350px;
+  }
+
+.btn-valores button ::ng-deep{
+  height: 100px;
+  width: 120px;
+  border-radius: 15px !important;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.content-body {
+    margin: 5%;
+}
+
+.content-card {
+    display: flex;
+    justify-content: center;
+}
+

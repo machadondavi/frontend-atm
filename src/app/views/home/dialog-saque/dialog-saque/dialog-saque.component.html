@@ -1,0 +1,12 @@
+<div style="width: 700px !important;" id="saque">
+    <p class="title">Seu saque:</p>
+    <div class="notas-container">
+        <div *ngFor="let nota of data.notasSaque" class="notas" class="cedula">
+            <div class="row"> 
+                <img [src]="selecionarImgCedula(nota)">
+            </div>
+        </div>
+    </div>
+    <br>
+    <button mat-flat-button color="primary" (click)="fecharDialog()">Fechar</button>
+</div>
