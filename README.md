@@ -1,4 +1,4 @@
-# Frontend Challenge Zenvia - Projeto
+# Frontend ATM - Projeto
 
 O desafio consiste em desenvolver um programa que simule a entrega de notas quando um cliente efetuar um saque em um caixa eletrônico, entregando sempre o menor número de notas.
 
